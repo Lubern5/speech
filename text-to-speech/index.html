@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Text to Speech Converter</h1>
+    <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+    <select id="voice-select">
+        <option value="Joanna">Joanna</option>
+        <option value="Matthew">Matthew</option>
+        <!-- Add more voice options here if needed -->
+    </select>
+    <button id="convert-button">Convert</button>
+    <audio controls id="audio-player" style="display: none;"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
